@@ -1,0 +1,47 @@
+
+.user-card__repo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+
+.user-card__repo-name {
+  color: #0366d6;
+}
+
+.user-card__repo-description {
+  box-sizing: border-box;
+  width: 80%;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.user-card__repo-info {
+  box-sizing: content-box;
+  font-size: 12px;
+  color: #586069;
+  font-family: Helvetica,Arial,sans-serif,Symbol;
+  line-height: 1.5;
+}
+
+.user-card__repo-language {
+  margin-right: 16px;
+}
+
+.user-card__repo-fork {
+  margin-right: 16px;
+}
+
+.user-card__repo-star {
+  margin-right: 16px;
+}
+
+.user-card__repo-update {
+  margin-right: 16px;
+}
