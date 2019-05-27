@@ -1,7 +1,8 @@
 .user-card {
   display: flex;
   flex-direction: row;
-
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .user-card__image
@@ -11,4 +12,8 @@
   background: transparent center no-repeat;
   background-size: contain;
   margin-right: 12px;
+}
+
+.user-card__link {
+    text-decoration: none;
 }

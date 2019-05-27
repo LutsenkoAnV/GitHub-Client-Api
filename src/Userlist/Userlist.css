@@ -1,0 +1,31 @@
+.user-list {
+  margin: 10px;
+}
+
+.add-owner {
+  box-sizing: content-box;
+  display: grid;
+  background: beige;
+  grid-template-areas:
+  "text sub"
+  "but but";
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  width: 330px;
+}
+
+  .add-owner__input {
+  margin-left: 5px;
+  margin-top: 10px;
+  grid-area: text;
+  }
+  .add-owner__submit {
+  background: darkkhaki;
+  grid-area: butt;
+  grid-column: span 2;
+  color: white;
+  }
+  .add-owner__descr {
+  margin-top: 10px;
+  grid-area: sub;
+  }
